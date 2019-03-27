@@ -4,3 +4,7 @@ class Project
   def initialize(project)
     @project = project
     @backers = []
+  end
+  
+  
+  
