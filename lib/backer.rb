@@ -5,3 +5,7 @@ class Backer
     @project = project
     @backend_projects = []
   end
+  
+  def back_project(instance)
+    instance << self
+  end
